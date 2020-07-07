@@ -1,0 +1,15 @@
+.challenge-body{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(1, 39, 255, 0.185) 1px 2px 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 550px){
+    .challenge-body{
+        width: 90%;
+    }
+}
