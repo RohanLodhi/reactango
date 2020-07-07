@@ -24,6 +24,7 @@ const ChallengePage = () => {
                     <p>{question} </p>
                 ))}
             </div>
+            <br /> <br /> <br />
             <div className='answer'>
                 <h2>Answer: {challengeToRender.answer}</h2>
             </div>
