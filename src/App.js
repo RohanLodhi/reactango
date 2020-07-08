@@ -18,8 +18,8 @@ function App() {
         <Route exact path='/'>
           <HomePage />
         </Route>
-        <Route exact path='/:id'>
-          <ChallengePage />
+        <Route path='/:id'>
+            <ChallengePage />
         </Route>
       </Switch>
     </div>

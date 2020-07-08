@@ -1,30 +1,32 @@
 .header{
     width: 100%;
-    height: 180px;
-    background-color: rgb(231, 88, 88);
+    height: 100px;
+    background-color: rgb(0, 0, 0);
     position: relative;
+    text-align: center;
+    padding-top: 2rem;
 }
 .main-heading{
-    padding-top: 3rem;
-    color: white;
-    font-size: 3.5em;
-    text-align: center;
+    font-size: 3em;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 
 @media screen and (max-width: 550px){
     .main-heading{
-        padding-top: 0.5rem;
+        padding-top: 0.3rem;
         padding-bottom: 1rem;
     }
     .header{
         height: fit-content;
+        width: 100%;
+        margin-right: 0;
     }
 }
 .header a{
-    font-family: 'Slabo 27px', serif;
-    font-weight: 100;
+    font-family: 'Source Serif Pro', serif;
+    text-align: left;
+    font-weight: 300;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }

@@ -10,7 +10,6 @@ class ChallengeView extends React.Component{
         this.state = {
             challenges: CHALLENGES_DATA
         };
-        console.log(CHALLENGES_DATA)
     }
 
     render(){
