@@ -7,14 +7,13 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { browserHistory } from "react-router-dom";
 import ChallengePage from './pages/challenge-page/challenge-page.component';
 
 class App extends React.Component {
   
   render() {
     return(
-      <Router history={browserHistory} >
+      <Router>
       <div className="App">
         <Header />
         <Switch>
