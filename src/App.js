@@ -7,28 +7,36 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { browserHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import ChallengePage from './pages/challenge-page/challenge-page.component';
 
-class App extends React.Component {
-  
-  render() {
-    return(
-      <Router history={browserHistory} >
+function App() {
+  React.useEffect(() => {
+    const qs = window.location.search;
+    let c = new URLSearchParams(qs);
+    let history = useHistory();
+    if (c.get("__loader")) {
+      const route = c.get("__loader");
+      history.push(route);
+      return;
+    }
+  }, []);
+  return (
+    <Router>
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path='/'>
+          <Route exact path="/">
             <HomePage />
           </Route>
-          <Route path='/:id'>
-              <ChallengePage />
+          <Route path="/:id">
+            <ChallengePage />
           </Route>
         </Switch>
       </div>
     </Router>
-    )
-  };
+  );
 }
+
 
 export default App;
