@@ -14,9 +14,10 @@ class App extends React.Component {
   componentDidMount() {
     const qs = window.location.search;
     let c = new URLSearchParams(qs);
+   const history = useHistory();
     if (c.get('__loader')) {
       const route = c.get('__loader');
-      let history = useHistory();
+
       history.push(route);
       return;
     }
