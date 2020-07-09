@@ -7,15 +7,6 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-<<<<<<< HEAD
-import ChallengePage from './pages/challenge-page/challenge-page.component';
-
-class App extends React.Component {
-  
-  render() {
-    return(
-      <Router>
-=======
 import { useHistory } from "react-router-dom";
 import ChallengePage from './pages/challenge-page/challenge-page.component';
 
@@ -32,7 +23,6 @@ function App() {
   }, []);
   return (
     <Router>
->>>>>>> 7f5edf808f70adcbed2882cf7242804e08e0c8a4
       <div className="App">
         <Header />
         <Switch>
