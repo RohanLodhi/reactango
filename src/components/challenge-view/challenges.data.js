@@ -1,5 +1,21 @@
 const CHALLENGES_DATA = [
     {
+        id: 3, 
+        number: 3,
+        author: 'litomayez',
+        title: 'Coding Challenge #3',
+        difficulty: 'Medium',
+        questions: ['Rick and Morty are fed up with the Trump administration and their continuous exploitation of privacy rights. They have decided to encrypt their messages with their own rules so that nobody else can understand them.', 'Firstly, they remove all of the spaces from the message. Then, they write the letters into a matrix which has rows = Floor(len_of_message^0.5) and columns = Ceil(len_of_message^0.5). Now the message is obtained by combining all of the characters in a column and then adding a space and then combining all characters of the second column and so on.', 'For example: “welcome to just program” becomes “wmuo eesg lttr copa ojrm”', 'Write a function that encrypts the messages and another function for Rick that decrypts the messages.'],
+        answer: 'TBA',
+        solution: '',
+        submissions: [
+            {
+                name: 'mike#2250',
+                link: 'https://github.com/mikeyj777/Discord_Programmers_Unite_Weekly_Challenge/blob/master/Weekly_Challenge_3.ipynb'
+            }
+        ]
+    },
+    {
         id: 2, 
         number: 2,
         author: 'exzia',

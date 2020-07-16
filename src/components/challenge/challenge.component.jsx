@@ -13,9 +13,10 @@ const Challenge = ({number, title, author, questions, submissions, difficulty, s
                 </b>
             </p>
             <p>
-            {questions.map(question =>(
-                <p>{question} </p>
-            ))}
+                {questions[0]}
+            </p>
+            <p>
+                {questions[questions.length-1]}
             </p>
             <span>
                 Author: {author}
