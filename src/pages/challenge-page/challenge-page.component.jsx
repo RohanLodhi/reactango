@@ -27,7 +27,7 @@ const ChallengePage = () => {
                 </div>
                 <br /> <br /> <br />
                 <div className='answer'>
-                    <h2>Answer: {challengeToRender.answer}</h2>
+                    <h2><b>Answer:</b> {challengeToRender.answer}</h2>
                 </div>
                 <h2>Solution: </h2>
                 <EmbeddedGist gist={challengeToRender.solution}></EmbeddedGist>

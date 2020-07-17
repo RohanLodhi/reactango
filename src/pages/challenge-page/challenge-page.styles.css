@@ -8,6 +8,10 @@
     padding: 10px;
 }
 
+.answer h2{
+    font-weight: 400;
+}
+
 @media screen and (max-width: 550px){
     .challenge-body{
         width: 90%;

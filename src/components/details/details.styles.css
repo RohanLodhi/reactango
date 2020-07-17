@@ -7,6 +7,10 @@
     margin-left: auto;
     font-size: 1.2em;
 }
+.details:hover {
+    transition: ease-out 1s;
+    box-shadow: rgba(217, 1, 255, 0.185) 1px 2px 20px;
+}
  
 button {
     min-width: 165px;

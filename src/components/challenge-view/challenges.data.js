@@ -1,12 +1,24 @@
 const CHALLENGES_DATA = [
     {
+        id: 4, 
+        number: 4,
+        author: 'litomayez',
+        title: 'Coding Challenge #4',
+        difficulty: 'Medium',
+        questions: ['For this week’s coding challenge, you have to build a job listing scraper that emails the user the potential listings.', 'The script should take the following user inputs: Type of job, Work experience required and Other optional fields that would filter the listings.', 'Email the user five potential job listings sorted by highest paying jobs. You can scrape from multiple sources.'],
+        answer: "TBA",
+        solution: '',
+        submissions: [
+        ]
+    },
+    {
         id: 3, 
         number: 3,
         author: 'litomayez',
         title: 'Coding Challenge #3',
         difficulty: 'Medium',
         questions: ['Rick and Morty are fed up with the Trump administration and their continuous exploitation of privacy rights. They have decided to encrypt their messages with their own rules so that nobody else can understand them.', 'Firstly, they remove all of the spaces from the message. Then, they write the letters into a matrix which has rows = Floor(len_of_message^0.5) and columns = Ceil(len_of_message^0.5). Now the message is obtained by combining all of the characters in a column and then adding a space and then combining all characters of the second column and so on.', 'For example: “welcome to just program” becomes “wmuo eesg lttr copa ojrm”', 'Write a function that encrypts the messages and another function for Rick that decrypts the messages.'],
-        answer: 'TBA',
+        answer: "Create matrix and use for loops. Refer to Mike's solution below. ",
         solution: '',
         submissions: [
             {
