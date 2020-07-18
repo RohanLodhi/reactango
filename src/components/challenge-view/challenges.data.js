@@ -23,7 +23,8 @@ const CHALLENGES_DATA = [
         submissions: [
             {
                 name: 'mike#2250',
-                link: 'https://github.com/mikeyj777/Discord_Programmers_Unite_Weekly_Challenge/blob/master/Weekly_Challenge_3.ipynb'
+                link: 'https://github.com/mikeyj777/Discord_Programmers_Unite_Weekly_Challenge/blob/master/Weekly_Challenge_3.ipynb',
+                best: true
             }
         ]
     },
@@ -39,11 +40,13 @@ const CHALLENGES_DATA = [
         submissions: [
             {
                 name: 'rjfryman#8249',
-                link: 'https://github.com/RJFryman/weekly-challenge/blob/master/coding_challenge_2.rb'
+                link: 'https://github.com/RJFryman/weekly-challenge/blob/master/coding_challenge_2.rb',
+                best: true
             },
             {
                 name: 'Slippe#2743',
-                link: 'https://ideone.com/WpWEaC'
+                link: 'https://ideone.com/WpWEaC',
+                best: false
             }
         ]
     },
@@ -59,7 +62,8 @@ const CHALLENGES_DATA = [
         submissions: [
             {
                 name: 'rjfryman#8249',
-                link: 'https://github.com/RJFryman/weekly-challenge/blob/master/coding_challenge_1.rb'
+                link: 'https://github.com/RJFryman/weekly-challenge/blob/master/coding_challenge_1.rb',
+                best: true
             }
         ]
     }

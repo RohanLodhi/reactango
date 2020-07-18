@@ -1,0 +1,29 @@
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.href-leader{
+    display: none;
+    width: 95%;
+    background-color: rgb(224, 224, 254);
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1rem;
+}
+.href-leader a{
+    color: #373f49;
+}
+
+@media screen and (max-width: 550px){
+    .body{
+        flex-direction: column;
+    }
+    .href-leader{
+        display: block;
+    }
+}

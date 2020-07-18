@@ -1,17 +1,25 @@
 .details{
     box-shadow: rgba(1, 39, 255, 0.185) 1px 2px 20px;
     padding: 10px;
-    width: 35%;
+    width: 57%;
     margin-top: 2rem;
     margin-right: auto;
     margin-left: auto;
     font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
 }
 .details:hover {
     transition: ease-out 1s;
     box-shadow: rgba(217, 1, 255, 0.185) 1px 2px 20px;
 }
- 
+.text-content{
+    margin-left: 2rem;
+    font-size: 1.2em;
+}
+.image{
+    max-width: 150%;
+}
 button {
     min-width: 165px;
     width: auto;
@@ -33,6 +41,15 @@ button {
       border: 1px solid black;
     }
     
+@media screen and (max-width:1450px){
+    .details{
+        flex-direction: column;
+    }
+    .image{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @media screen and (max-width: 1080px){
     .details{
         width: 70%;
@@ -41,8 +58,16 @@ button {
 
 @media screen and (max-width: 550px){
     .details{
-        padding-right: 5%;
+        padding-right: 2%;
         width: 90%;
+    }
+    .text-content{
+        width: 100%;
+        margin-left: 0rem;
+        font-size: 1em;
+    }
+    .image img{
+        width: 100%;
     }
 }
 .wrapper{
