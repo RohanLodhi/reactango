@@ -1,12 +1,24 @@
 const CHALLENGES_DATA = [
     {
+        id: 5, 
+        number: 5,
+        author: 'litomayez',
+        title: 'Coding Challenge #5',
+        difficulty: 'Medium',
+        questions: ['The palindromic number 595 is interesting because it can be written as the sum of consecutive squares: 6^2 + 7^2 + 8^2 + 9^2 + 10^2 + 11^2 + 12^2.', 'There are exactly eleven palindromes below one-thousand that can be written as consecutive square sums, and the sum of these palindromes is 4164. Note that 1 = 0^2 + 1^2 has not been included as this problem is concerned with the squares of positive integers.', 'Find the sum of all the numbers less than 10^8 that are both palindromic and can be written as the sum of consecutive squares.'],
+        answer: "TBA",
+        solution: '',
+        submissions: [
+        ]
+    },
+    {
         id: 4, 
         number: 4,
         author: 'litomayez',
         title: 'Coding Challenge #4',
         difficulty: 'Medium',
         questions: ['For this week’s coding challenge, you have to build a job listing scraper that emails the user the potential listings.', 'The script should take the following user inputs: Type of job, Work experience required and Other optional fields that would filter the listings.', 'Email the user five potential job listings sorted by highest paying jobs. You can scrape from multiple sources.'],
-        answer: "TBA",
+        answer: "Scrape listings. Easy.",
         solution: '',
         submissions: [
         ]
