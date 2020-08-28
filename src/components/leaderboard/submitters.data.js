@@ -2,7 +2,7 @@ const SUBMITTERS = [
     {
         id: 1,
         name: 'mike#2250',
-        points: 10
+        points: 20
     },
     {
         id: 2,
@@ -12,7 +12,7 @@ const SUBMITTERS = [
     {
         id: 3,
         name: 'Slippe#2743',
-        points: 5
+        points: 10
     }
 ]
 SUBMITTERS.sort((a,b) => (a.points > b.points) ? -1 : ((b.points > a.points) ? +1 : 0)); 
